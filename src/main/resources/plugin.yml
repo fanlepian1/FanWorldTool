@@ -1,0 +1,4 @@
+name: FanWorldTool
+version: '${version}'
+main: net.fanlepian.fanworldtool.Main
+api-version: '1.20'
