@@ -3,10 +3,11 @@ package net.fanlepian.fanworldtool;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class Main extends JavaPlugin {
+    private JavaPlugin Instance;
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
+        this.Instance =this;
 
     }
 
